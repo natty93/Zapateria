@@ -217,18 +217,22 @@ public class VistaCambioCalzado extends JFrame {
 
 	}
 
+	// Manda si Realizo el Cambio o no
 	public boolean realizaCambio() {
 		return existecambio;
 	}
 
+	// Manda El Modelo de Tabla Venta
 	public DefaultTableModel getTablaModeloVenta() {
 		return this.modeloventa;
 	}
 
+	// Manda El Modelo de Tabla Cambio
 	public DefaultTableModel getTablaModeloCambio() {
 		return this.modelocambio;
 	}
 
+	// Modifica el Folio de Venta 
 	public void setFolioventa(String folioventa) {
 		this.tffolioventa.setText(folioventa);
 	}
